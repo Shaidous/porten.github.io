@@ -114,7 +114,7 @@ body a{
 
 .times-working{
     display: flex;
-    margin-right: 45em;
+    margin-right: 40em;
 }
 
 .times-working ul{
@@ -154,7 +154,7 @@ body a{
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;
 }
@@ -200,7 +200,7 @@ body a{
 
 /*MAIN*/
 .main{
-    background-image: url(./img/header-img.png);
+    background-image: url(porten.github.io/img/header-img.png);
     background-size: cover;
     width: 100%;
     height: 630px;
