@@ -200,7 +200,7 @@ body a{
 
 /*MAIN*/
 .main{
-    background-image: url(porten.github.io/img/header-img.png);
+    background-image: url(./porten.github.io/img/header-img.png);
     background-size: cover;
     width: 100%;
     height: 630px;
