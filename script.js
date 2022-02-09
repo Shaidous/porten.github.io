@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+$(document).ready(jQuery(function() {
     $('a[href*=#]').bind('click', function(e) {
     e.preventDefault();
     
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
    var btn = $('#button');
 
-$(window).scroll(function() {
+$(window).scroll(jQuery(function() {
   if ($(window).scrollTop() > 300) {
     btn.addClass('show');
   } else {
@@ -24,7 +24,7 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
+btn.on('click', jQuery(function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
