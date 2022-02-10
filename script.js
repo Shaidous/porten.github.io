@@ -5,7 +5,7 @@ $(document).ready(jQuery(function() {
     
     var target = $(this).attr("href");
     
-    $('html, body').stop().animate({ scrollTop: $(target).offset().top}, 1500, function() {
+    $('html, body').stop().animate({ scrollTop: $(target).offset().top}, 1500, jQuery(function() {
     location.hash = target;
     });
     
