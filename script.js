@@ -1,11 +1,11 @@
 
-$(document).ready(jQuery(function() {
+$(document).ready(function() {
     $('a[href*=#]').bind('click', function(e) {
     e.preventDefault();
     
     var target = $(this).attr("href");
     
-    $('html, body').stop().animate({ scrollTop: $(target).offset().top}, 1500, jQuery(function() {
+    $('html, body').stop().animate({ scrollTop: $(target).offset().top}, 1500, function() {
     location.hash = target;
     });
     
@@ -16,7 +16,7 @@ $(document).ready(jQuery(function() {
 
    var btn = $('#button');
 
-$(window).scroll(jQuery(function() {
+$(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
     btn.addClass('show');
   } else {
@@ -24,7 +24,7 @@ $(window).scroll(jQuery(function() {
   }
 });
 
-btn.on('click', jQuery(function(e) {
+btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
