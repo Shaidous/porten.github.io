@@ -99,10 +99,6 @@ body a{
     text-decoration: none;
 }
 
-.container-main{
-    height: 100hv;
-}
-
 /*---Стили для header-logo---*/
 .header-logo_contacts{
     font-size: 12px;
