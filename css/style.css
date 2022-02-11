@@ -151,7 +151,8 @@ body a{
 .container-nav{
     background-color: #0F0F0F;
     display: flex;
-    padding: 0 0 0 13em ;
+    padding-left: 13%;
+    padding-rigth: 20%;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
