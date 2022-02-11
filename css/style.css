@@ -451,8 +451,8 @@ body a{
     margin: 0 auto;
     position: relative;
     justify-content: space-between;
-    margin-left: 380px;
-    margin-right: 380px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .third img{
