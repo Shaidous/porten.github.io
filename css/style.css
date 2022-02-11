@@ -103,7 +103,8 @@ body a{
 .header-logo_contacts{
     font-size: 12px;
     display: flex;
-    padding: 0 12em ;
+    padding-left: 13%;
+    padding-rigth: 20%;
     align-items: center;
     color: #969696;
     font-family: PT Sans;
